@@ -41,10 +41,4 @@ export f_value
 export sub_d 
 export draw_disk
 
-function greet_your_package_name()
-    return "Hello YourPackageName!"
-end
-
-export greet_your_package_name
-
 end
