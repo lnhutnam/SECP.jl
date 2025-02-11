@@ -1,0 +1,13 @@
+name = "SECP"
+uuid = "48eab55c-0956-4e24-aad0-9f8b2a2d9a5c"
+authors = ["Le, Nhut-Nam"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
