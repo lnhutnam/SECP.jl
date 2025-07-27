@@ -4,10 +4,7 @@
 
 A Julia implementation for solving the Smallest Enclosing Circle Problem (SECP), also known as the minimum covering circle problem, bounding circle problem, least bounding circle problem, or smallest enclosing circle problem.
 $$
-\begin{array}{ll}
-\text{minimize} & \displaystyle\max_{i=1,\ldots,n} \|x - p_i\| \\[0.5em]
-\text{subject to} & x \in \mathbb{R}^2
-\end{array}
+\min_{x \in \mathbb{R}^2} \max_{i=1,\ldots,n} \|x - p_i\|
 $$
 where:
 - $x$ is the circle center
